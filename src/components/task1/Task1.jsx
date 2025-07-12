@@ -3,8 +3,8 @@ import "./Task1.css";
 import { FaArrowRight } from "react-icons/fa";
 import { images } from "./images";
 import AmaizingBox from "./AmaizingBox";
-import TestimonialsCards from "./TestimonialsCards";
-import TestimonialsVideo from "./TestimonialsVideo";
+import TestimonialsCards from "./TestimonialsCards.jsx";
+import TestimonialsVideo from "./TestimonialsVideo.jsx";
 
 const Task1 = () => {
   const [hoverIndex, setHoverIndex] = useState(null);
