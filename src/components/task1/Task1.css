@@ -1,0 +1,51 @@
+@keyframes smoothBounce {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-40px);
+  }
+}
+
+.group:hover .group-hover-smooth-bounce {
+  animation: smoothBounce 7s ease-in-out infinite;
+  animation-delay: 1s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes smoothBounce2 {
+  0%,
+  100% {
+    transform: translateY(-40px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+}
+
+.group:hover .group-hover-smooth-bounce2 {
+  animation: smoothBounce2 7s ease-in-out infinite;
+  animation-delay: 1s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes amazing-pop-up {
+  0%,
+  100% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  20% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  80% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.amazing-pop-up {
+  animation: amazing-pop-up 4s ease-in-out infinite;
+}
