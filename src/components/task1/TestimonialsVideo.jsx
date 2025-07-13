@@ -4,9 +4,7 @@ import avivideo from "../../assets/avishek_testimonial.mp4";
 const TestimonialsVideo = ({ testimonialsclass, hoverIndex }) => {
   return (
     <div
-      className={`${testimonialsclass} ${
-        hoverIndex ? "opacity-100 scale-110" : "opacity-0 scale-0"
-      } `}
+      className={`${testimonialsclass} ${hoverIndex ? "smooth-scale-video" : " "} `}
     >
       <video
         src={avivideo}

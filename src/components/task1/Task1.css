@@ -49,3 +49,37 @@
 .amazing-pop-up {
   animation: amazing-pop-up 4s ease-in-out infinite;
 }
+
+@keyframes smooth-scale-video {
+  0%{
+    opacity: 0;
+    transform: translateY(100px);
+  
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+    
+  }
+}
+
+.smooth-scale-video {
+  animation: smooth-scale-video 2s ease-in-out ;
+}
+
+@keyframes smooth-scale-text {
+  0%{
+    opacity: 0;
+    transform: translateY(-100px);
+  
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+    
+  }
+}
+
+.smooth-scale-text {
+  animation: smooth-scale-text 2s ease-in-out ;
+}

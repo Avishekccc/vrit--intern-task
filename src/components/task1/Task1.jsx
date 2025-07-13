@@ -5,16 +5,17 @@ import { images } from "./images";
 import AmaizingBox from "./AmaizingBox";
 import TestimonialsCards from "./TestimonialsCards.jsx";
 import TestimonialsVideo from "./TestimonialsVideo.jsx";
+import avivideo from "../../assets/avishek_testimonial.mp4";
 
 const Task1 = () => {
   const [hoverIndex, setHoverIndex] = useState(null);
 
   return (
-    <main className="h-[100dvh] flex justify-center items-center">
+    <main className="h-[100dvh] flex justify-center items-center overflow-hidden">
       {/* content here */}
       <section className="group lg:h-1/2 lg:w-1/2 flex justify-center items-center p-6  relative   ">
         {/* centered text */}
-        <section className=" md:max-w-[600px] flex flex-col gap-2 md:gap-4 items-center z-10  ">
+        <section className=" md:max-w-[600px] flex flex-col gap-2 md:gap-4 items-center z-0">
           <h3 className=" md:text-2xl  font-semibold text-[#414141]  ">
             Hear How They Level Up Their Game!
           </h3>
@@ -43,6 +44,13 @@ const Task1 = () => {
                 setHoverIndex(null);
               }}
             >
+              {img.testimonialVideo && hoverIndex === index && (
+                <TestimonialsVideo
+                  testimonialsclass={img.testimonialVideo.testimonialsclass}
+                  hoverIndex={hoverIndex === index}
+                ></TestimonialsVideo>
+              )}
+
               <img src={img.src} alt={img.alt} className={img.imgClass} />
 
               {img.testimonialCard && hoverIndex === index && (
@@ -50,13 +58,6 @@ const Task1 = () => {
                   testimonialsclass={img.testimonialCard.testimonialsclass}
                   hoverIndex={hoverIndex === index}
                 ></TestimonialsCards>
-              )}
-
-              {img.testimonialVideo && hoverIndex === index && (
-                <TestimonialsVideo
-                  testimonialsclass={img.testimonialVideo.testimonialsclass}
-                  hoverIndex={hoverIndex === index}
-                ></TestimonialsVideo>
               )}
 
               {img.amazingBox && (

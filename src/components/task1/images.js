@@ -15,7 +15,7 @@ export const images = [
     src: image1,
     alt: "student image",
     wrapperClass:
-      "absolute top-12 -left-4 md:top-12 md:-left-20 lg:top-25 lg:-left-20 xl:top-30 xl:left-5 h-14 w-14 md:h-20 md:w-20 lg:h-25 lg:w-25 rounded-2xl lg:rounded-4xl transform group-hover:-translate-x-48 group-hover:-translate-y-25 transition-all duration-300 group-hover-smooth-bounce",
+      "absolute top-12 -left-4 md:top-12 md:-left-20 lg:top-25 lg:-left-20 xl:top-30 xl:left-5 h-14 w-14 md:h-20 md:w-20 lg:h-25 lg:w-25 rounded-2xl lg:rounded-4xl transform group-hover:-translate-x-48 group-hover:-translate-y-25 transition-all duration-300 group-hover-smooth-bounce ",
     imgClass: "h-full w-full object-cover rounded-2xl lg:rounded-4xl",
   },
   {
@@ -43,7 +43,7 @@ export const images = [
     src: image5,
     alt: "student image",
     wrapperClass:
-      "absolute top-32 left-45 md:top-38 md:left-68 lg:top-52 lg:left-72 xl:top-58 xl:left-103 h-14 w-14 md:h-20 md:w-20 lg:h-25 lg:w-25 rounded-2xl lg:rounded-4xl p-1 hover:shadow-lg shadow-blue-400 transform group-hover:translate-x-25 group-hover:translate-y-32 transition-all duration-300 group-hover-smooth-bounce",
+      "absolute top-32 left-45 md:top-38 md:left-68 lg:top-52 lg:left-72 xl:top-58 xl:left-103 h-14 w-14 md:h-20 md:w-20 lg:h-25 lg:w-25 rounded-2xl lg:rounded-4xl p-1 hover:shadow-lg shadow-blue-400 transform group-hover:translate-x-25 group-hover:translate-y-32 transition-all duration-300 group-hover-smooth-bounce z-0",
     imgClass: "h-full w-full object-cover rounded-2xl lg:rounded-4xl",
     amazingBox: {
       amzClass:
@@ -51,15 +51,15 @@ export const images = [
     },
     testimonialVideo: {
       testimonialsclass:
-        "p-1 h-[16rem] w-[10rem]  bg-white rounded-xl absolute -top-65 -left-5 shadow-lg transition-all duration-1000 ease-out z-0",
+        "p-1 h-[16rem] w-[10rem]  bg-white rounded-xl absolute -top-63 -left-5 shadow-lg transition-all duration-1000 ease-out",
     },
   },
   {
     src: likemsg,
     alt: "like gif",
     wrapperClass:
-      "absolute top-25 left-62 md:top-33 md:left-95 lg:top-48 lg:left-105 xl:top-50 xl:left-135 h-14 md:h-20 md:w-20 w-14 lg:h-25 lg:w-25 rounded-2xl lg:rounded-4xl transform group-hover:translate-x-20 group-hover:translate-y-0 transition-all duration-300",
-    imgClass: "h-full w-full object-cover rounded-2xl lg:rounded-4xl",
+      "absolute top-25 left-62 md:top-33 md:left-95 lg:top-48 lg:left-105 xl:top-50 xl:left-135 h-14 md:h-20 md:w-20 w-14 lg:h-25 lg:w-25 rounded-2xl lg:rounded-4xl transform group-hover:translate-x-20 group-hover:translate-y-0 transition-all duration-300 z-10",
+    imgClass: "h-full w-full object-cover rounded-2xl lg:rounded-4xl ",
   },
   {
     src: image4,
@@ -79,22 +79,22 @@ export const images = [
     src: like,
     alt: "like gif",
     wrapperClass:
-      "absolute -top-9 left-20 md:-top-18 md:left-30 lg:-top-10 lg:left-34 xl:-top-4 xl:left-62 h-14 w-14 md:h-20 md:w-20 lg:h-25 lg:w-25 rounded-2xl lg:rounded-4xl  transform group-hover:translate-x-5 group-hover:-translate-y-20 transition-all duration-300 z-0",
+      "absolute -top-9 left-20 md:-top-18 md:left-30 lg:-top-10 lg:left-34 xl:-top-4 xl:left-62 h-14 w-14 md:h-20 md:w-20 lg:h-25 lg:w-25 rounded-2xl lg:rounded-4xl  transform group-hover:translate-x-5 group-hover:-translate-y-20 transition-all duration-300",
     imgClass: "h-full w-full object-cover rounded-2xl lg:rounded-4xl",
   },
   {
     src: image2,
     alt: "student image",
     wrapperClass:
-      "absolute -top-8 left-1 md:-top-16 md:left-0 lg:-top-8 lg:left-0 xl:-top-2 xl:left-30 h-14 w-14 md:h-20 md:w-20 lg:h-25 lg:w-25 rounded-2xl lg:rounded-4xl p-1 hover:shadow-lg shadow-blue-400 transform transform group-hover:-translate-x-35 group-hover:-translate-y-30 transition-all duration-300 group-hover-smooth-bounce2 z-0 ",
+      "absolute -top-8 left-1 md:-top-16 md:left-0 lg:-top-8 lg:left-0 xl:-top-2 xl:left-30 h-14 w-14 md:h-20 md:w-20 lg:h-25 lg:w-25 rounded-2xl lg:rounded-4xl p-1 hover:shadow-lg shadow-blue-400 transform transform group-hover:-translate-x-35 group-hover:-translate-y-30 transition-all duration-300 group-hover-smooth-bounce2 ",
     imgClass: "h-full w-full object-cover rounded-2xl lg:rounded-4xl",
     amazingBox: {
       amzClass:
-        "absolute top-6 left-10 md:top-10 md:left-16 lg:top-12 lg:left-22 xl:top-12 xl:left-22 z-10 h-7 w-27 md:h-8 md:w-27 text-start text-[8px] p-2 rounded-lg bg-white shadow-md shadow-gray-500 amazing-pop-up",
+        "absolute top-6 left-10 md:top-10 md:left-16 lg:top-12 lg:left-22 xl:top-12 xl:left-22 z-50 h-7 w-27 md:h-8 md:w-27 text-start text-[8px] p-2 rounded-lg bg-white shadow-md shadow-gray-500 amazing-pop-up",
     },
     testimonialCard: {
       testimonialsclass:
-        "bg-white text-xs text-[#2B2B2B]  w-[21rem] h-auto absolute top-24 -left-24 p-3 rounded-lg shadow-lg transform transition-all duration-1000",
+        "bg-white text-xs text-[#2B2B2B]  w-[21rem] h-auto absolute top-24 -left-24 p-3 rounded-lg shadow-lg transform transition-all duration-1000 z-30",
     },
   },
 ];

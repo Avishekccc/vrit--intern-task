@@ -1,11 +1,11 @@
 import React from "react";
+import "./Task1.css";
 
 const TestimonialsCards = ({ testimonialsclass, hoverIndex }) => {
-  console.log(hoverIndex);
   return (
     <div
       className={`${testimonialsclass}  ${
-        hoverIndex ? "opacity-100 scale-100" : "opacity-0 scale-0"
+        hoverIndex ? "smooth-scale-text scale-100" : ""
       } `}
     >
       <p>
